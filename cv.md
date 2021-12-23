@@ -1,5 +1,7 @@
 # DANIL SAMKO
 
+![photo](ava_2.jpg "my photo")
+
 ## About me
 Starting to learn HTML, CSS and JS to work in IT industry in future. I don't have any expirience in programming on previous jobs, but I have finished few online-HTML courses in past 3 years because it's very interesting to me and I see great potential in IT sphere. 
 
