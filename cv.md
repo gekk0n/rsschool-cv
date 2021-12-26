@@ -1,5 +1,5 @@
 # DANIL SAMKO
-![photo](ava_2small.jpg "my photo")
+![photo](image/ava_2small.jpg "my photo")
 
 
 
