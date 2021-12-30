@@ -1,0 +1,151 @@
+html {
+    background-color:azure;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-menu a {
+    color: rgb(255, 210, 0);
+    
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.cv-page {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 10px 5px 45px rgb(80, 80, 80);    
+}
+
+.header {   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;    
+}
+
+.name {
+    
+    width: 349px;
+}
+
+.photo {
+    background-color: rgb(255, 210, 0);
+    width: 349px;
+    align-content: center;
+}
+
+.avatar {
+    display: block;
+    max-height: 300px;
+    padding: 0 50px;
+}
+
+.line {
+    background-color: rgb(110, 110, 110);
+    border-left: 10px solid rgb(255, 210, 0);
+}
+
+.main {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills {
+    flex-basis: 50%;
+    padding: 5px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
+    
+}
+.skills h2 {
+    width: 100%;
+    max-height: 30px;
+    align-self: flex-start;
+    
+}
+
+.skills-list {
+    width: 30%;
+    
+    
+    
+
+}
+.div-dots {
+    width: 50%;    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+.about {
+    flex-basis: 50%;
+    padding: 5px;
+    background-color: rgb(255, 210, 0);
+    text-align: justify;
+    
+}
+.about p {
+    text-indent: 25px;
+}
+
+.education {
+    flex-basis: 50%;
+    padding: 5px;
+}
+
+.contacts {
+    flex-basis: 50%;
+    padding: 5px;
+    background-color: rgb(255, 210, 0);
+}
+.cont-ico {
+    width: 20px;
+    
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.rs-logo {
+    width: 75px;
+    display: block;
+}
+.github-logo {
+    width: 75px;
+}
