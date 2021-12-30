@@ -1,3 +1,117 @@
-div {
-    width: 50%;
+html {
+    background-color:azure;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+.cv-page {
+    width: 700px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 10px 5px 45px rgb(80, 80, 80);    
+}
+
+.header {   
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;    
+}
+
+.name {
+    
+    width: 349px;
+}
+
+.photo {
+    
+    width: 349px;
+    align-content: center;
+}
+
+.avatar {
+    display: block;
+    max-height: 300px;
+    padding: 0 50px;
+}
+
+.line {
+    background-color: gray;
+    border-left: 5px solid yellow;
+}
+
+.main {
+    width: 700px;
+    background-color: rgb(4, 252, 219);
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.skills {
+    border: 1px solid black;
+    flex-basis: 50%;
+    padding: 5px;
+    
+}
+
+.about {
+    border: 1px solid black;
+    flex-basis: 50%;
+    padding: 5px;
+}
+
+.education {
+    border: 1px solid black;
+    flex-basis: 50%;
+    padding: 5px;
+}
+
+.contacts {
+    border: 1px solid black;
+    flex-basis: 50%;
+    padding: 5px;
+}
+.cont-ico {
+    width: 20px;
+    
+}
+
+
+.footer {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.rs-logo {
+    width: 75px;
+    display: block;
+}
+.github-logo {
+    width: 75px;
 }
