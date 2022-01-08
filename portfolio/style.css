@@ -1,0 +1,116 @@
+html body{
+    background: #000000;
+    color: white;
+    margin: 0 auto;
+    max-width: 1440px;
+    font: 20px 'Inter', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;    
+    scroll-behavior: smooth; 
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+  } 
+header {
+    background: url(assets/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center 0;
+
+}
+.header .container{
+    display: flex;
+    align-items: center;
+}
+img {
+    display: block;   
+}
+#logo {
+   display: block;
+   padding: 20px 0;
+}
+
+#logo:hover {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
+  }
+nav {
+    margin-left: auto;
+}
+
+.nav-list{    
+    list-style: none;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:visited {
+    color: white;
+}
+a:hover{
+    color: #bdae72;
+}
+
+/* ****************   MAIN BLOCK   *******************/
+h1{
+    font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3{
+    font-weight: 700;    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    /* border: solid 1px black; */
+    text-align: center;
+}
+
+.hero {
+    height: 910px;
+    background: url(assets/img/bg.jpg);
+    background-position: center -90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    position: relative;
+    
+}
+.hero-block{
+    width: 500px;
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    line-height: 40px;
+    
+}
+.hero-block h1{
+    font-size: 60px;
+}
+
+.button{
+    background-color: #bdae72;
+    color: black;
+    width: 220px;
+    height: 55px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+.section-subheader {
+    color: #bdae72;
+}
+
+.skills-list {
+    display: flex;
+    
+    
+}
