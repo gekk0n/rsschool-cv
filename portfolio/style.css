@@ -57,13 +57,11 @@ a:hover{
 }
 
 /* ****************   MAIN BLOCK   *******************/
-h1{
+h1, h2 {
     font-family: 'Merriweather', serif;
+    font-weight: 700;  
 }
 
-h1, h2, h3{
-    font-weight: 700;    
-}
 
 main {
     display: flex;
@@ -72,6 +70,7 @@ main {
 section {
     /* border: solid 1px black; */
     text-align: center;
+
 }
 
 .hero {
@@ -105,12 +104,94 @@ section {
     cursor: pointer;
     font-family: inherit;
 }
-.section-subheader {
+button:hover{
+    color: white;
+}
+.subheader {
+    margin: 100px auto;
+    width: 50%;
+    background-image: url(assets/svg/section-title-line.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: linear-gradient(to top, #000 39px, #bdae82 39px, #bdae82 41px, #000 41px); */
+}
+
+/* .section-subheader::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 290px;
+    height: 2px; 
+    background-color: #bdae72;
+  }
+  .section-subheader::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 290px;
+    height: 2px; 
+    
+    background-color: #bdae72;
+  } */
+
+.section-subheader-name {
+    display: inline;
     color: #bdae72;
+    font-weight: 700;  
+    font-size: 40px;
+    background-color: black;
+    padding: 0 20px;
+    
 }
 
 .skills-list {
     display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.skill-item{
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    width: 320px;
+    line-height: 36px;
+    font-size: 18px;
+}
+.skill-item h3{
+    line-height: 40px;
+}
+.skill-ico {
+    margin: 0 auto;
+}
+
+.section>.button{
+    background-color: black;
+    color: #bdae72;
+    border: solid 1px #bdae72;
+    width: 220px;
+    height: 55px;
+    cursor: pointer;
+    font-family: inherit;
+}
+.section>.button:hover{
+    background-color: #bdae72;
+    color: black;
+}
+
+.photo-block{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 60px;
+}
+.video-player{
+    background-image: url(assets/img/video-player.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     
-    
+    height: 705px;
 }
