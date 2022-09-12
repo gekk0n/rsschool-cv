@@ -103,7 +103,10 @@ h2 {
   flex-direction: column;
   flex-wrap: wrap;
 }
-
+.dot {
+  width: 15px;
+  height: 15px;
+}
 .about {
   flex-basis: 50%;
   background-color: rgb(255, 210, 0);
